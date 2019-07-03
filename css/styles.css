@@ -1,0 +1,86 @@
+h1 {
+    font-size: 3rem;
+    font-family: 'Permanent Marker', cursive;
+}
+
+body {
+    font-family: ariel, helvetica, sans-serif;
+    line-height: 1.5;
+    background-image: url(../img/notepaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    text-align: center;
+    max-width: 45rem;
+}
+
+.list {
+/*
+    background-image: url(../img/notepaper.jpg);
+    background-size: cover;
+    background-repeat: none;
+    text-align: center;
+    display: block;
+    max-width: 45rem;
+*/
+    padding: 10%;
+    padding-bottom: 3%;
+    height: 100%;
+}
+img {
+    width: 150px;
+    height: auto;
+}
+
+input[type=text] {
+    width: 90%;
+    padding: 8px;
+}
+
+button {
+    width: 70%;
+    background-color: forestgreen;
+    color: #ffff;
+    padding: 8px;
+    font-size: 1rem; 
+}
+ul {
+    overflow-x: scroll;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+ul li {
+    text-align: left;
+}
+
+ul li:after {
+    content: "";
+    display: block;
+    height: 1px;
+    margin: 5px;
+    margin-left: -40px;
+    width: 120%;
+    background: black;
+    text-decoration: none;
+}
+.icons {
+    font-size: 2rem;
+}
+
+a {
+    color: forestgreen;
+}
+
+/*Desktop*/
+@media (min-width: 45rem) {
+    body {
+        background-image: url(../img/notepaper.jpg);
+        background-size: 45rem, auto;
+        background-repeat: no-repeat; 
+        background-position: top left;
+    }
+}
+/*
+stock photo links: 
+https://pixabay.com/photos/note-stickies-notepad-list-wood-726020/
+https://pixabay.com/vectors/check-box-icon-tick-mark-correct-1294836/*/
